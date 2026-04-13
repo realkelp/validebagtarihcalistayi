@@ -3,13 +3,23 @@
     {
       "id": 1,
       "name": "Türk Azınlıkları",
-      "description": "Bu komite, Osmanlı İmparatorluğu'ndan günümüze kadar Türk azınlıklarının tarihi, göç hareketleri ve kültürel mirası derinlemesine incelemektedir. Balkanlar, Kırım ve Kafkasya bölgelerindeki Türk diasporası hakkında çok boyutlu analiz sunulmaktadır.",
+      "description": "Bu komite, Osmanlı İmparatorluğu'ndan günümüze kadar Türk azınlıklarının tarihi, göç hareketleri ve kültürel mirası incelemektedir. Uygur Sorunu, Müslüman ülkelerin ekonomik bağımlılığı, Kıbrıs Meselesi, Avrupa Birliği'nin değerler diplomasisi ve Türk milletlerinin kültürel asimilasyonu üzerine derinlemesine tartışmalar yapılmaktadır.",
+      "topics": [
+        "Uygur Sorunu Neden Ukrayna veya Filistin Kadar Gündem Değil?",
+        "Irk ve İnançta Bir Olan Devletlerin Suskunluk Paradoksu",
+        "Müslüman Ülkelerin Ekonomik Bağımlılık ve Dini Dayanışma Arasındaki İkilemi",
+        "Türk Ülkelerinin Ekonomik Bağımlılık ve Irki Dayanışma Arasındaki İkilemi",
+        "Kıbrıs Sorunu ve Türk Devletlerin Karşıtlığı",
+        "Avrupa Birliği'nin Değerler Diplomasisi: Ticari Anlaşmalar mı, İnsan Hakları mı?",
+        "Çin'in Terörle Mücadele Söylemi Altında Uygur Asimilasyonu",
+        "Sovyetlerin Türk Azınlıklarını Asimilasyonu"
+      ],
       "moderator": {
-        "name": "Prof. Dr. Ahmet Yılmaz",
-        "title": "Başkan, Tarih Bölümü"
+        "name": "Ahmet Emir Çelik",
+        "title": "Validebağ Fen Lisesi"
       },
       "assistant_moderator": {
-        "name": "Dr. Müge Kara",
+        "name": "gelecek",
         "title": "Yardımcı Moderatör"
       }
     },
