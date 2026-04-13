@@ -39,7 +39,23 @@
     {
       "id": 3,
       "name": "Amerika-Irak",
-      "description": "Bu komite, Amerika Birleşik Devletleri ile Irak arasındaki tarihsel ilişkileri, 2003 müdahalesinin psikolojik ve sosyopolitik etkileri ile bölgesel istikrarsızlığın ardından gelen gelişmeleri tartışmaktadır.",
+      "description": "Bu komite, Amerika Birleşik Devletleri ile Irak arasındaki tarihsel ilişkileri, 2003 müdahalesinin psikolojik ve sosyopolitik etkileri ile bölgesel istikrarsızlığın ardından gelen gelişmeleri derinlemesine tartışmaktadır. Irak işgalinin uluslararası hukuk, jeopolitik, enerji politikası ve küresel sistemdeki etkileri incelenirken, Ortadoğu'daki çok katmanlı çatışmaların kökenleri analiz edilmektedir.",
+      "topics": [
+        "\"Eski Avrupa\" ve Rusya'nın Savaş Karşıtı Ekseni: Berlin-Paris-Moskova İttifakı",
+        "BM Güvenlik Konseyi'ndeki Diplomatik Direnişi ve Uluslararası Sistemdeki Potansiyeli",
+        "Küresel Savaş Karşıtı Protestolar ve Toplumsal Hareketler",
+        "Neoliberal Politikalar ve Sivil Toplumun Dış Politikaya Etki Gücü",
+        "11 Eylül Saldırıları ve ABD Dış Politikasında Yarattığı Kırılma",
+        "\"Terörle Savaş\" Doktrini ve Önleyici Savaş Kavramı",
+        "İşgal Sonrası Irak'ın Yeniden İnşası ve Geçiş Dönemi Hükümetleri",
+        "Federalleşme Çabaları ve Mezhepsel/Etnik Güç Dağılımı",
+        "Orta Doğu'da Enerji Jeopolitiği ve Petrol",
+        "Kaynak Kontrolü Stratejileri ve Enerji Koridorlarının Güvenliği",
+        "Küresel Güçlerin Çıkarları ve Çok Uluslu Petrol Şirketleri",
+        "Tek Kutuplu Dünya Düzeninin Krizi",
+        "Irak İşgalinin Küresel Hegemonya Üzerindeki Etkileri",
+        "Birleşmiş Milletler'in İşlevselliği Sorunu"
+      ],
       "moderator": {
         "name": "Prof. Dr. Mehmet Şahin",
         "title": "Başkan, Ortadoğu Çalışmaları"
@@ -98,8 +114,8 @@
         "Çin ve Amerika Arasında Yeni Bir Soğuk Savaş mı Olacak?"
       ],
       "moderator": {
-        "name": "Prof. Dr. Vladimir Petrov",
-        "title": "Başkan, Modern Avrupa Tarihi"
+        "name": "Bora Gümüş",
+        "title": "Boğaziçi "
       },
       "assistant_moderator": {
         "name": "Dr. Robert Anderson",
