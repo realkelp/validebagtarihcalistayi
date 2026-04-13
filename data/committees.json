@@ -78,7 +78,25 @@
     {
       "id": 6,
       "name": "Soğuk Savaş",
-      "description": "Bu komite, 1947-1991 arasındaki Soğuk Savaş dönemini incelemekte, iki süpergücün ideolojik mücadelesi, proxy savaşları, nükleer tehditler ve bu döneme damga vuran olayları tartışmaktadır.",
+      "description": "Bu komite, 1947-1991 arasındaki Soğuk Savaş dönemini incelemekte, iki süpergücün ideolojik mücadelesi, proxy savaşları, nükleer tehditler ve bu döneme damga vuran olayları derinlemesine tartışmaktadır. Soğuk Savaş öncesi dönem, proxy savaşlar, kültürel ve ideolojik işgal, süper güçler arası rekabet, Türkiye'nin rolü ve Soğuk Savaş'ın sonu ve yeni dünya düzeni tartışılmaktadır.",
+      "topics": [
+        "Soğuk Savaş Öncesi Dönem",
+        "Proxy War: Küba Füze Krizi",
+        "Proxy War: Kore Savaşı ve Türklere Etkisi",
+        "Proxy War: Vietnam Savaşı",
+        "Amerika ve Sovyetlerin Kültürel ve İdeolojik İşgali",
+        "Amerikanın Getirdiği Demokrasinin Uygulanabilirliği",
+        "Latin Amerika ve Afrikaya Yapılan İdeolojik Baskılar",
+        "Komünizmden Çıkmış Devletlerin Kendini Komünizmden Soyutlama Çalışmaları",
+        "Süper Güçler Arasında İdeolojik Rekabet",
+        "Süper Güçler Arasında Ekonomik Rekabet",
+        "Uzay Yarışı",
+        "Caydırıcılık Dengesi",
+        "Soğuk Savaş ve Türkiye",
+        "Fukiyama'nın Tarihin Sonu Tezi: Geçerli midir?",
+        "Glasnost ve Perestroyka Reformları: Komünizmin Mutlak Yenilgisi midir?",
+        "Çin ve Amerika Arasında Yeni Bir Soğuk Savaş mı Olacak?"
+      ],
       "moderator": {
         "name": "Prof. Dr. Vladimir Petrov",
         "title": "Başkan, Modern Avrupa Tarihi"
