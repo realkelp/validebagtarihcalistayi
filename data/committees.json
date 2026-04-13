@@ -27,9 +27,18 @@
       "id": 2,
       "name": "İngiliz Sömürge İşgalleri",
       "description": "Bu komite, Britanya İmparatorluğu'nun sömürge alanlarında hâkimiyet kurması, yönetim yapıları ve bu dönemin jeopolitik sonuçlarını araştırmaktadır. Hindistan, Afrika ve Asya bölgelerindeki İngiliz yönetim uygulamaları incelenmektedir.",
+      "topics": [
+        "İngiliz Sömürgeciliğinin Mirası: Eski Kolonilerin Günümüzdeki Sosyo-Ekonomik Durumu Alternatif Bir Tarih Perspektifiyle Daha İyi Olabilir miydi?",
+        "Sömürgeci Eğitim Politikalarının Anti-Kolonyal Hareketlerin Doğuşundaki Rolü",
+        "Klasik Sömürgecilikten Neo-Kolonyalizme: İngiliz Etkisinin Günümüzdeki Sürekliliği ve Dönüşümü",
+        "Mau Mau İsyanı (Kenya) Örneğinde Sömürgeci Şiddet: Güvenlik Politikası mı, Sistematik Baskı mı?",
+        "Sömürge Sonrası Adalet: İngiliz Sömürge Yönetimlerinin Hukuki Sorumluluğu ve Dokunulmazlık Tartışmaları",
+        "Bağımlılık Teorisi Perspektifinden İngiliz Sömürgeciliği: Az Gelişmişlik Tarihsel ve Yapısal Bir Ürün mü?",
+        "Sömürgeciliğin Hukuki Mirası: Uluslarası Düzenin Sürekliliği ve Dönüşümü"
+      ],
       "moderator": {
-        "name": "Prof. Dr. Richard Thompson",
-        "title": "Başkan, Avrupa Tarihi Kürsüsü"
+        "name": "Enes Akman",
+        "title": "Moderatör, İstanbul Üniversitesi Hukuk Fakültesi"
       },
       "assistant_moderator": {
         "name": "Dr. Sarah Mitchell",
@@ -57,8 +66,8 @@
         "Birleşmiş Milletler'in İşlevselliği Sorunu"
       ],
       "moderator": {
-        "name": "Prof. Dr. Mehmet Şahin",
-        "title": "Başkan, Ortadoğu Çalışmaları"
+        "name": "Alperen Özali",
+        "title": "Moderatör, Yeditepe Üniversitesi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
       },
       "assistant_moderator": {
         "name": "Dr. Fatih Çelik",
@@ -71,10 +80,10 @@
       "description": "Bu komite, Filistin sorununun tarihsel arka planı, 1948'den günümüze yaşanan çatışmalar, barış girişimleri ve iki halkın yakılaşması olasılığını multidisipliner bir bakış açısından incelemektedir.",
       "moderator": {
         "name": "Ekin Güney Çelik",
-        "title": "Moderatör, Koç Üniversitesi "
+        "title": "Moderatör, Koç Üniversitesi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
       },
       "assistant_moderator": {
-        "name": "Dr. Nida Al-Rashid",
+        "name": "Arzu Aydın",
         "title": "Yardımcı Moderatör"
       }
     },
