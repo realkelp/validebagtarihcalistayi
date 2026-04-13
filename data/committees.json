@@ -1,0 +1,82 @@
+{
+  "committees": [
+    {
+      "id": 1,
+      "name": "Türk Azınlıkları",
+      "description": "Bu komite, Osmanlı İmparatorluğu'ndan günümüze kadar Türk azınlıklarının tarihi, göç hareketleri ve kültürel mirası derinlemesine incelemektedir. Balkanlar, Kırım ve Kafkasya bölgelerindeki Türk diasporası hakkında çok boyutlu analiz sunulmaktadır.",
+      "moderator": {
+        "name": "Prof. Dr. Ahmet Yılmaz",
+        "title": "Başkan, Tarih Bölümü"
+      },
+      "assistant_moderator": {
+        "name": "Dr. Müge Kara",
+        "title": "Yardımcı Moderatör"
+      }
+    },
+    {
+      "id": 2,
+      "name": "İngiliz Sömürge İşgalleri",
+      "description": "Bu komite, Britanya İmparatorluğu'nun sömürge alanlarında hâkimiyet kurması, yönetim yapıları ve bu dönemin jeopolitik sonuçlarını araştırmaktadır. Hindistan, Afrika ve Asya bölgelerindeki İngiliz yönetim uygulamaları incelenmektedir.",
+      "moderator": {
+        "name": "Prof. Dr. Richard Thompson",
+        "title": "Başkan, Avrupa Tarihi Kürsüsü"
+      },
+      "assistant_moderator": {
+        "name": "Dr. Sarah Mitchell",
+        "title": "Yardımcı Moderatör"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Amerika-Irak",
+      "description": "Bu komite, Amerika Birleşik Devletleri ile Irak arasındaki tarihsel ilişkileri, 2003 müdahalesinin psikolojik ve sosyopolitik etkileri ile bölgesel istikrarsızlığın ardından gelen gelişmeleri tartışmaktadır.",
+      "moderator": {
+        "name": "Prof. Dr. Mehmet Şahin",
+        "title": "Başkan, Ortadoğu Çalışmaları"
+      },
+      "assistant_moderator": {
+        "name": "Dr. Fatih Çelik",
+        "title": "Yardımcı Moderatör"
+      }
+    },
+    {
+      "id": 4,
+      "name": "İsrail-Filistin",
+      "description": "Bu komite, Filistin sorununun tarihsel arka planı, 1948'den günümüze yaşanan çatışmalar, barış girişimleri ve iki halkın yakılaşması olasılığını multidisipliner bir bakış açısından incelemektedir.",
+      "moderator": {
+        "name": "Prof. Dr. Levent Demirtaş",
+        "title": "Başkan, Ortadoğu Araştırmaları Enstitüsü"
+      },
+      "assistant_moderator": {
+        "name": "Dr. Nida Al-Rashid",
+        "title": "Yardımcı Moderatör"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Kavimler Göçü",
+      "description": "Bu komite, antik çağdan Orta Çağ'a kadar geniş coğrafyalarda meydana gelen nüfus hareketlerini, kültürel etkileşimlerini ve devlet kurumlarının bu hareketlere verdiği tepkileri araştırmaktadır.",
+      "moderator": {
+        "name": "Prof. Dr. İbrahim Kara",
+        "title": "Başkan, Antik Tarih Kürsüsü"
+      },
+      "assistant_moderator": {
+        "name": "Dr. Eleni Papadopoulos",
+        "title": "Yardımcı Moderatör"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Soğuk Savaş",
+      "description": "Bu komite, 1947-1991 arasındaki Soğuk Savaş dönemini incelemekte, iki süpergücün ideolojik mücadelesi, proxy savaşları, nükleer tehditler ve bu döneme damga vuran olayları tartışmaktadır.",
+      "moderator": {
+        "name": "Prof. Dr. Vladimir Petrov",
+        "title": "Başkan, Modern Avrupa Tarihi"
+      },
+      "assistant_moderator": {
+        "name": "Dr. Robert Anderson",
+        "title": "Yardımcı Moderatör"
+      }
+    }
+  ]
+}

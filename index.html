@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Validebağ Tarih Çalıştayı - 9-10 Mayıs 2026">
+  <meta name="theme-color" content="#6B4423">
+  
+  <title>Validebağ Tarih Çalıştayı</title>
+  
+  <link rel="icon" href="images/vfltarihkalitesiz.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="site.css">
+  <style>
+    /* Hero section with background image */
+    section.hero {
+      position: relative;
+      background-image: url('images/arkaplansavas.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      overflow: hidden;
+    }
+
+    section.hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(107, 68, 35, 0.75) 0%, rgba(139, 115, 85, 0.75) 100%);
+      z-index: 0;
+    }
+
+    section.hero > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    section.hero h1,
+    section.hero p {
+      color: var(--color-surface);
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Scroll target for anchor */
+    #mekan {
+      scroll-margin-top: 80px;
+    }
+
+    .venue-centered {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .venue-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--space-2xl);
+      margin: var(--space-2xl) 0;
+    }
+
+    .venue-info {
+      text-align: left;
+    }
+
+    .venue-image img {
+      width: 100%;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      object-fit: cover;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span style="font-size: 1.2rem; font-weight: 700; color: var(--color-primary);">Validebağ</span>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Anasayfa</a></li>
+        <li><a href="committees.html">Komiteler</a></li>
+        <li><a href="speakers.html">Konuşmacılar</a></li>
+        <li><a href="schedule.html">Program Akışı</a></li>
+        <li><a href="#mekan">Mekan</a></li>
+        <li><a href="team.html">Ekip</a></li>
+        <li><a href="application.html" class="btn btn-accent btn-small">Başvuru</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container text-center">
+        <h1 class="animate-on-scroll stagger-1">Validebağ Tarih Çalıştayı</h1>
+        
+        <p class="animate-on-scroll stagger-2" style="font-size: 1.3rem; color: black; font-style: italic; margin-bottom: 0;">
+          9 - 10 Mayıs 2026
+        </p>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN SECTION -->
+    <section class="light text-center">
+      <div class="container">
+        <h2 class="animate-on-scroll mb-2xl">Çok Yakında</h2>
+        
+        <div class="countdown animate-on-scroll stagger-1">
+          <div class="countdown-item">
+            <div class="countdown-value" id="days">0</div>
+            <div class="countdown-label">Gün</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-value" id="hours">0</div>
+            <div class="countdown-label">Saat</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-value" id="minutes">0</div>
+            <div class="countdown-label">Dakika</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-value" id="seconds">0</div>
+            <div class="countdown-label">Saniye</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VENUE SECTION -->
+    <section class="dark" id="mekan">
+      <div class="venue-centered">
+        <h2 class="animate-on-scroll text-center">Mekan</h2>
+
+        <div class="venue-grid animate-on-scroll stagger-1">
+          <!-- TOP: Image -->
+          <div>
+            <img src="images/validebağfenlisesi.jpg" alt="Validebağ Fen Lisesi" style="width: 100%; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); object-fit: cover;">
+          </div>
+
+          <!-- BOTTOM: Info -->
+          <div class="venue-info">
+            <h3 style="margin-bottom: var(--space-md); color: var(--color-primary);">Validebağ Fen Lisesi</h3>
+            
+            <div class="card">
+              <h4 style="margin-top: 0; margin-bottom: var(--space-md); color: var(--color-primary);">Konum Bilgileri</h4>
+              
+              <p class="mb-md">
+                <strong>Adres:</strong><br>
+                ALTUNİZADE MAH. KALFAÇEŞME SK. ÖGRETMEN EVI BLOK NO: 1/1 ÜSKÜDAR / İSTANBUL
+              </p>
+              
+              <p class="mb-md">
+                <strong>Tarih:</strong><br>
+                9 - 10 Mayıs 2026 (Cuma - Cumartesi)
+              </p>
+              
+              <p class="mb-lg">
+                <strong>Saat:</strong><br>
+                09:00 - 18:00 (Her gün)
+              </p>
+
+              <hr style="border: none; border-top: 1px solid var(--color-divider); margin: var(--space-lg) 0;">
+
+              <h4 style="margin: var(--space-lg) 0 var(--space-md); color: var(--color-primary);">Ulaşım Bilgileri</h4>
+              <ul style="margin-left: 20px; line-height: 1.8; color: var(--color-text-primary);">
+                <li><strong>Metrobüs:</strong> Hızlı erişim (Multiple hatlar)</li>
+                <li><strong>Otobüs:</strong> Birden fazla hat mevcuttur</li>
+                <li><strong>Oto Park:</strong> Okul içinde mevcut</li>
+                <li><strong>Engelli Park:</strong> Uygun alanlar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="animate-on-scroll stagger-2" style="margin-top: var(--space-3xl);">
+          <h3 style="margin-bottom: var(--space-lg); color: var(--color-primary);">Harita</h3>
+          <div class="card" style="padding: 0; overflow: hidden;">
+            <iframe 
+            
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.594088327422!2d29.039478812111632!3d41.01225681905961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9d47a2cdcd7%3A0xa003f63ae86dd751!2sValideba%C4%9F%20Fen%20Lisesi!5e0!3m2!1str!2str!4v1776105855831!5m2!1str!2str"
+              width="100%" 
+              height="400" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPONSORS SECTION -->
+    <section class="light">
+      <div class="container text-center">
+        <h2 class="animate-on-scroll mb-2xl">Sponsorlar</h2>
+        
+        <div class="grid-4 animate-on-scroll stagger-1">
+          <div class="card-compact text-center" style="border: 1px solid var(--color-border); padding: var(--space-lg);">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 auto var(--space-md);">
+              <circle cx="40" cy="40" r="38" stroke="var(--color-accent)" stroke-width="2" fill="var(--color-surface-secondary)"/>
+              <path d="M40 20L45 35H60L48 45L53 60L40 50L27 60L32 45L20 35H35L40 20Z" fill="var(--color-accent)" opacity="0.7"/>
+            </svg>
+            <h4 style="color: var(--color-primary);">Sponsor 1</h4>
+          </div>
+
+          <div class="card-compact text-center" style="border: 1px solid var(--color-border); padding: var(--space-lg);">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 auto var(--space-md);">
+              <rect x="20" y="20" width="40" height="40" stroke="var(--color-accent)" stroke-width="2" fill="var(--color-surface-secondary)"/>
+              <circle cx="40" cy="40" r="4" fill="var(--color-accent)"/>
+            </svg>
+            <h4 style="color: var(--color-primary);">Sponsor 2</h4>
+          </div>
+
+          <div class="card-compact text-center" style="border: 1px solid var(--color-border); padding: var(--space-lg);">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 auto var(--space-md);">
+              <circle cx="40" cy="40" r="38" stroke="var(--color-accent)" stroke-width="2" fill="var(--color-surface-secondary)"/>
+              <path d="M30 40L35 50L50 30" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h4 style="color: var(--color-primary);">Sponsor 3</h4>
+          </div>
+
+          <div class="card-compact text-center" style="border: 1px solid var(--color-border); padding: var(--space-lg);">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 0 auto var(--space-md);">
+              <circle cx="40" cy="40" r="38" stroke="var(--color-accent)" stroke-width="2" fill="var(--color-surface-secondary)"/>
+              <circle cx="30" cy="35" r="3" fill="var(--color-accent)"/>
+              <circle cx="50" cy="35" r="3" fill="var(--color-accent)"/>
+              <path d="M32 50Q40 55 48 50" stroke="var(--color-accent)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            </svg>
+            <h4 style="color: var(--color-primary);">Sponsor 4</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="light">
+      <div class="container text-center">
+        <h2 class="animate-on-scroll mb-2xl">İletişim</h2>
+        
+        <div class="animate-on-scroll stagger-1" style="max-width: 600px; margin: 0 auto;">
+          <div class="card" style="padding: var(--space-2xl);">
+            <p style="font-size: 1.1rem; margin-bottom: var(--space-lg);">
+              <strong>Email:</strong><br>
+              <a href="mailto:vfltarihcalistayi@gmail.com" style="color: var(--color-accent); text-decoration: none; font-size: 1.2rem;">
+                vfltarihcalistayi@gmail.com
+              </a>
+            </p>
+            
+            <p style="font-size: 1.1rem; margin-bottom: 0;">
+              <strong>Instagram:</strong><br>
+              <a href="https://instagram.com/vfltarihcalistayi" target="_blank" style="color: var(--color-accent); text-decoration: none; font-size: 1.2rem;">
+                @vfltarihcalistayi
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Validebağ Tarih Çalıştayı. Tüm hakları saklıdır.</p>
+      <p>
+        <a href="mailto:vfltarihcalistayi@gmail.com">iletişim</a> •
+        <a href="#">Gizlilik Politikası</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

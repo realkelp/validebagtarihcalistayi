@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Validebağ Tarih Çalıştayı - Konuşmacılar">
+  
+  <title>Konuşmacılar | Validebağ Tarih Çalıştayı</title>
+  
+  <link rel="icon" href="images/vfltarihkalitesiz.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="site.css">
+  <style>
+    /* Hero section with background image */
+    section.hero {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow: hidden;
+    }
+
+    section.hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(107, 68, 35, 0.75) 0%, rgba(139, 115, 85, 0.75) 100%);
+      z-index: 0;
+    }
+
+    section.hero > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    section.hero h1,
+    section.hero p {
+      color: var(--color-surface);
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .speakers-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-3xl);
+      margin: var(--space-3xl) 0;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 768px) {
+      .speakers-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-2xl);
+      }
+    }
+
+    .speaker-card {
+      text-align: center;
+    }
+
+    .speaker-image {
+      width: 100%;
+      height: 350px;
+      background-color: var(--color-surface-secondary);
+      border-radius: var(--radius-lg);
+      border: 2px dashed var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: var(--space-lg);
+      overflow: hidden;
+    }
+
+    .speaker-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .speaker-name {
+      color: var(--color-primary);
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: var(--space-md);
+    }
+
+    .speaker-bio {
+      color: var(--color-text-primary);
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span style="font-size: 1.2rem; font-weight: 700; color: var(--color-primary);">Validebağ</span>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="committees.html">Komiteler</a></li>
+        <li><a href="speakers.html" class="active">Konuşmacılar</a></li>
+        <li><a href="schedule.html">Program Akışı</a></li>
+        <li><a href="index.html#mekan">Mekan</a></li>
+        <li><a href="team.html">Ekip</a></li>
+        <li><a href="application.html" class="btn btn-accent btn-small">Başvuru</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" style="background-image: url('images/kutuphane.jpg');">
+      <div class="container text-center">
+        <h1 class="animate-on-scroll stagger-1">Konuşmacılar</h1>
+        
+        <p class="animate-on-scroll stagger-2" style="font-size: 1.3rem; font-style: italic; margin-bottom: 0;">
+          Tarih çalıştayımızın değerli konuşmacıları
+        </p>
+      </div>
+    </section>
+
+    <!-- SPEAKERS SECTION -->
+    <section class="light">
+      <div class="container">
+        <div class="speakers-grid animate-on-scroll stagger-1">
+          <!-- Speaker 1: Ali Satan -->
+          <div class="speaker-card">
+            <div class="speaker-image">
+              <img src="images/ali-satan.webp" alt="Ali Satan" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 class="speaker-name">Ali Satan</h3>
+            <p class="speaker-bio">
+              Ali Satan, Türk tarih ve siyaset alanında uzman bir araştırmacıdır. Çok sayıda akademik yayın ve kitabın yazarı olan Satan, tarihsel olayların çağdaş perspektifinden incelenmesinde öncü çalışmalar gerçekleştirmiştir.
+            </p>
+          </div>
+
+          <!-- Speaker 2: Berdal Aral -->
+          <div class="speaker-card">
+            <div class="speaker-image">
+              <img src="images/berdal-aral.jpg" alt="Berdal Aral" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <h3 class="speaker-name">Berdal Aral</h3>
+            <p class="speaker-bio">
+              Berdal Aral, uluslararası ilişkiler ve tarihsel diplomasi üzerine yazılar yazan seçkin bir bilim insanıdır. Türkiye'nin bölgesel konumunun tarihsel kökleri hakkında derin analizler sunan Aral, akademik çevrelerde saygın bir isimdir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Validebağ Tarih Çalıştayı. Tüm hakları saklıdır.</p>
+      <p>
+        <a href="mailto:vfltarihcalistayi@gmail.com">iletişim</a> •
+        <a href="#">Gizlilik Politikası</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Validebağ Tarih Çalıştayı - Başvuru">
+  
+  <title>Başvuru | Validebağ Tarih Çalıştayı</title>
+  
+  <link rel="icon" href="images/vfltarihkalitesiz.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="site.css">
+  <style>
+    .application-container {
+      max-width: 1000px;
+      margin: var(--space-3xl) auto;
+      padding: 0 var(--space-lg);
+    }
+
+    .application-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-3xl);
+      margin: var(--space-3xl) 0;
+    }
+
+    @media (max-width: 768px) {
+      .application-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-2xl);
+      }
+    }
+
+    .application-card {
+      background: var(--color-surface);
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-2xl);
+      text-align: center;
+      transition: all 0.3s ease;
+      box-shadow: var(--shadow-md);
+    }
+
+    .application-card:hover {
+      border-color: var(--color-accent);
+      box-shadow: var(--shadow-lg);
+      transform: translateY(-4px);
+    }
+
+    .application-card h3 {
+      color: var(--color-primary);
+      font-size: 1.8rem;
+      margin-bottom: var(--space-lg);
+    }
+
+    .application-card p {
+      color: var(--color-text-primary);
+      line-height: 1.8;
+      margin-bottom: var(--space-2xl);
+    }
+
+    .application-button {
+      display: inline-block;
+      background-color: var(--color-accent);
+      color: var(--color-surface);
+      padding: var(--space-md) var(--space-2xl);
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .application-button:hover {
+      background-color: #a64d2e;
+      text-decoration: none;
+      transform: scale(1.05);
+    }
+
+    .application-icon {
+      font-size: 3rem;
+      margin-bottom: var(--space-lg);
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span style="font-size: 1.2rem; font-weight: 700; color: var(--color-primary);">Validebağ</span>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="committees.html">Komiteler</a></li>
+        <li><a href="speakers.html">Konuşmacılar</a></li>
+        <li><a href="schedule.html">Program Akışı</a></li>
+        <li><a href="index.html#mekan">Mekan</a></li>
+        <li><a href="team.html">Ekip</a></li>
+        <li><a href="application.html" class="active btn btn-accent btn-small">Başvuru</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- PAGE HEADER -->
+    <section class="light text-center">
+      <div class="container">
+        <h1 class="animate-on-scroll">Başvuru Yapın</h1>
+        <p class="animate-on-scroll stagger-1" style="font-size: 1.2rem; max-width: 700px; margin: 0 auto;">
+          Validebağ Tarih Çalıştayı'na katılmak için başvuru türünüzü seçiniz.
+        </p>
+      </div>
+    </section>
+
+    <!-- APPLICATION OPTIONS -->
+    <section class="dark">
+      <div class="application-container">
+        <div class="application-grid animate-on-scroll stagger-1">
+          <!-- Individual Application -->
+          <div class="application-card">
+            <div class="application-icon">👤</div>
+            <h3>Bireysel Başvuru</h3>
+            <p>
+              Tarih çalıştayımıza bireysel olarak katılmak istiyorsanız, lütfen bu formu doldurunuz. Sadece sizin bilgileriniz kaydedilecektir.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6rA6gTKrqqKxIMOu5CJPsDPmnwL3As09_zaP8a62IZdHNdw/viewform" target="_blank" class="application-button">
+              Formu Doldur →
+            </a>
+          </div>
+
+          <!-- Delegation Application -->
+          <div class="application-card">
+            <div class="application-icon">👥</div>
+            <h3>Delegasyon Başvuru</h3>
+            <p>
+              Kurumunuzdan bir delegasyon göndermek istiyorsanız, lütfen bu formu doldurunuz. Tüm delegasyon üyelerinin bilgilerini ekleyebilirsiniz.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUXNnpHpRKY1TusnxW071rdFc4m7WQOL3dRkvvOe0qYwBbZA/viewform" target="_blank" class="application-button">
+              Formu Doldur →
+            </a>
+          </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="animate-on-scroll stagger-2" style="margin-top: var(--space-3xl); text-align: center;">
+          <div class="card" style="background-color: var(--color-surface-secondary); padding: var(--space-2xl);">
+            <h3 style="color: var(--color-primary); margin-bottom: var(--space-md);">Sorularınız mı var?</h3>
+            <p style="color: var(--color-text-primary); margin-bottom: var(--space-md);">
+              Başvuru süreci hakkında herhangi bir sorunuz varsa, lütfen bize ulaşınız.
+            </p>
+            <a href="mailto:vfltarihcalistayi@gmail.com" style="color: var(--color-accent); font-weight: 700; text-decoration: none;">
+              Email: vfltarihcalistayi@gmail.com
+            </a>
+            <p style="margin: var(--space-md) 0 0 0; color: var(--color-text-primary);">
+              Instagram: <a href="https://instagram.com/vfltarihcalistayi" target="_blank" style="color: var(--color-accent); text-decoration: none;">@vfltarihcalistayi</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Validebağ Tarih Çalıştayı. Tüm hakları saklıdır.</p>
+      <p>
+        <a href="mailto:vfltarihcalistayi@gmail.com">iletişim</a> •
+        <a href="#">Gizlilik Politikası</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

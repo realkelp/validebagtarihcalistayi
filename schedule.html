@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Validebağ Tarih Çalıştayı - Program Akışı">
+  
+  <title>Program Akışı | Validebağ Tarih Çalıştayı</title>
+  
+  <link rel="icon" href="images/vfltarihkalitesiz.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="site.css">
+  <style>
+    .coming-soon-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 500px;
+      text-align: center;
+    }
+
+    .coming-soon-text {
+      color: var(--color-primary);
+      font-size: 4rem;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+      line-height: 1.1;
+    }
+
+    @media (max-width: 768px) {
+      .coming-soon-text {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span style="font-size: 1.2rem; font-weight: 700; color: var(--color-primary);">Validebağ</span>
+      </div>
+      
+      <ul class="nav-links">
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="committees.html">Komiteler</a></li>
+        <li><a href="speakers.html">Konuşmacılar</a></li>
+        <li><a href="schedule.html" class="active">Program Akışı</a></li>
+        <li><a href="index.html#mekan">Mekan</a></li>
+        <li><a href="team.html">Ekip</a></li>
+        <li><a href="application.html" class="btn btn-accent btn-small">Başvuru</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" style="background-image: url('images/zaman.jpeg'); position: relative; background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
+      <div class="container text-center">
+        <h1 class="animate-on-scroll stagger-1" style="color: white; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);">Program Akışı</h1>
+        
+        <p class="animate-on-scroll stagger-2" style="font-size: 1.3rem; color: white; font-style: italic; margin-bottom: 0; text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);">
+          9 - 10 Mayıs 2026
+        </p>
+      </div>
+    </section>
+
+    <!-- COMING SOON SECTION -->
+    <section class="light">
+      <div class="container">
+        <div class="coming-soon-container">
+          <div class="coming-soon-text animate-on-scroll">
+            Çok Yakında
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Validebağ Tarih Çalıştayı. Tüm hakları saklıdır.</p>
+      <p>
+        <a href="mailto:vfltarihcalistayi@gmail.com">iletişim</a> •
+        <a href="#">Gizlilik Politikası</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
