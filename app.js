@@ -162,7 +162,14 @@ function showCommitteeModal(committee) {
         ${committee.description}
       </p>
 
-      <h3 style="margin-bottom: var(--space-md);">Komite Yönetimi</h3>
+      ${committee.topics ? `
+      <h3 style="margin-bottom: var(--space-md); margin-top: var(--space-lg);">Konu Başlıkları</h3>
+      <ul style="line-height: 2; margin-left: 20px; color: var(--color-text-primary);">
+        ${committee.topics.map(topic => `<li>${topic}</li>`).join('')}
+      </ul>
+      ` : ''}
+
+      <h3 style="margin-bottom: var(--space-md); margin-top: var(--space-lg);">Komite Yönetimi</h3>
       
       <div class="moderator-list">
         <div class="moderator-item">
