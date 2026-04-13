@@ -70,8 +70,8 @@
       "name": "İsrail-Filistin",
       "description": "Bu komite, Filistin sorununun tarihsel arka planı, 1948'den günümüze yaşanan çatışmalar, barış girişimleri ve iki halkın yakılaşması olasılığını multidisipliner bir bakış açısından incelemektedir.",
       "moderator": {
-        "name": "Prof. Dr. Levent Demirtaş",
-        "title": "Başkan, Ortadoğu Araştırmaları Enstitüsü"
+        "name": "Ekin Güney Çelik",
+        "title": "Moderatör, Koç Üniversitesi "
       },
       "assistant_moderator": {
         "name": "Dr. Nida Al-Rashid",
@@ -82,9 +82,17 @@
       "id": 5,
       "name": "Kavimler Göçü",
       "description": "Bu komite, antik çağdan Orta Çağ'a kadar geniş coğrafyalarda meydana gelen nüfus hareketlerini, kültürel etkileşimlerini ve devlet kurumlarının bu hareketlere verdiği tepkileri araştırmaktadır.",
+      "topics": [
+        "Hunlar gerçekten 'barbar' mıydı, yoksa Doğu'dan gelen baskıya oluşan doğal bir hayatta kalma ve genişleme stratejisi miydi?",
+        "Ostrogot Krallığı, Roma İmparatorluğu'nun devamı mıdır yoksa Roma egemenliğini sona erdiren bir işgal yönetimi mi?",
+        "Kavimler Göçü sürecinde Roma'nın vatandaşlık ve kimlik politikaları yetersiz mi kaldı?",
+        "Franklar Galya'yı işgal mi etti, yoksa Roma mirasıyla kaynaşarak yeni bir siyasi ve toplumsal düzen mi kurdu?",
+        "Kavimler Göçü sürecinde Hristiyanlık, Roma ile barbar kavimler arasında bir entegrasyon aracı mıydı, yoksa çatışmaları derinleştiren bir ayrım unsuru mu?",
+        "Gotların Tuna'yı geçişine izin verilmesi, Roma'nın göç yönetiminde başarısız olduğunu mu gösterir, yoksa dönemin koşullarında rasyonel bir risk alma kararı mıydı?"
+      ],
       "moderator": {
-        "name": "Prof. Dr. İbrahim Kara",
-        "title": "Başkan, Antik Tarih Kürsüsü"
+        "name": "Deniz Gülbay",
+        "title": "Moderatör, Boğaziçi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
       },
       "assistant_moderator": {
         "name": "Dr. Eleni Papadopoulos",
@@ -115,10 +123,10 @@
       ],
       "moderator": {
         "name": "Bora Gümüş",
-        "title": "Boğaziçi "
+        "title": "Moderatör, Boğaziçi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
       },
       "assistant_moderator": {
-        "name": "Dr. Robert Anderson",
+        "name": "Mehmet Yaşar Celayir",
         "title": "Yardımcı Moderatör"
       }
     }
