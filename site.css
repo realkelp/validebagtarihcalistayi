@@ -304,6 +304,12 @@ nav.scrolled {
   list-style: none;
 }
 
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
 .nav-links a {
   font-family: var(--font-display);
   font-weight: 600;
@@ -369,12 +375,14 @@ nav.scrolled {
     overflow: hidden;
     transition: max-height 0.3s ease;
     box-shadow: var(--shadow-md);
+    display: none !important;
   }
 
   .nav-links.open {
     max-height: 500px;
     overflow-y: auto;
     z-index: 99;
+    display: flex !important;
   }
 
   .nav-links a {
