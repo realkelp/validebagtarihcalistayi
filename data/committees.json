@@ -78,6 +78,15 @@
       "id": 4,
       "name": "İsrail-Filistin",
       "description": "Bu komite, Filistin sorununun tarihsel arka planı, 1948'den günümüze yaşanan çatışmalar, barış girişimleri ve iki halkın yakılaşması olasılığını multidisipliner bir bakış açısından incelemektedir.",
+      "topics": [
+        "Filistin ve İsrail arasında varlık ile sınır çatışması",
+        "İki devletli çözüm hâlâ mümkün mü, yoksa fiilen imkânsız mı?",
+        "Kudüs'ün paylaşımı barışın önündeki en büyük engel mi?",
+        "Dünyada siyaset anlayışında değişimler",
+        "Askeri teknolojilerdeki gelişmeler ve sahaya yansımaları",
+        "Ortadoğu özelinde asimetrik savaş taktikleri, DDG (Devlet Dışı Gruplar) ve vekalet savaşlarının geleceği",
+        "İran'ın nükleer programına karşı önleyici saldırı meşru mudur?"
+      ],
       "moderator": {
         "name": "Ekin Güney Çelik",
         "title": "Moderatör, Koç Üniversitesi Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
