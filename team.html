@@ -15,7 +15,7 @@
   <nav>
     <div class="nav-container">
       <div class="nav-logo">
-        <span style="font-size: 1.2rem; font-weight: 700; color: var(--color-primary);">Validebağ</span>
+        <span style="font-size: 1.2rem; font-weight: 700; color: var(--color-primary);">Validebağ Tarih</span>
       </div>
       
       <ul class="nav-links">
@@ -58,7 +58,7 @@
               Validebağ Tarih Çalıştayı, tarih akademisyenleri, araştırmacıları ve öğrencilerini bir araya getirerek uluslararası perspektiften tarihsel sorunları tartışmak amacıyla düzenlenmektedir.
             </p>
             <p>
-              Etkinlik kapsamında altı farklı komite kurulmuş olup, her komite belirli bir tarihsel dönem veya coğrafi bölgeye odaklanarak derinlemesine analizler sunacaktır.
+              Etkinlik kapsamında altı farklı rol başkanlığı kurulmuş olup, her rol başkanı etkinliğin belirli alanının koordinasyonundan ve yönetiminden sorumludur.
             </p>
             <p>
               <strong>Tarih:</strong> 9-10 Mayıs 2026<br>
@@ -69,45 +69,23 @@
 
           <div>
             <div class="card">
-              <h3>Hedefleri</h3>
+              <h3>Ekip Misyonu</h3>
               <ul style="line-height: 1.8;">
-                <li>✓ Tarihsel olaylar hakkında bilimsel tartışma</li>
-                <li>✓ Akademisyenler arasında işbirliğini teşvik etmek</li>
-                <li>✓ Genç araştırmacılara platform sağlamak</li>
-                <li>✓ Farklı perspektiflerden tarihselliği anlamak</li>
-                <li>✓ Ağ kurma ve işbirliği fırsatları yaratmak</li>
+                <li>✓ Etkinliğin sorunsuz ve başarılı bir şekilde yürütülmesi</li>
+                <li>✓ Akademisyenler arasında işbirliğini kolaylaştırmak</li>
+                <li>✓ Katılımcılara en iyi deneyimi sunmak</li>
+                <li>✓ Etkili koordinasyon ve iletişim sağlamak</li>
+                <li>✓ Etkinliğin akademik ve profesyonel standartlarını korumak</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div class="mt-3xl">
-          <h2 class="text-center mb-2xl animate-on-scroll">Komitelerimiz</h2>
-          <div class="grid-3 animate-on-scroll stagger-1">
-            <div class="card">
-              <h4>Türk Azınlıkları</h4>
-              <p class="text-muted">Osmanlı İmparatorluğu ve Türk diasporası hakkında araştırmalar</p>
-            </div>
-            <div class="card">
-              <h4>İngiliz Sömürge İşgalleri</h4>
-              <p class="text-muted">Britanya İmparatorluğu'nun coğrafi ve siyasi etkileri</p>
-            </div>
-            <div class="card">
-              <h4>Amerika-Irak</h4>
-              <p class="text-muted">20. ve 21. yüzyıl orta doğu jeopolitiğinin analizi</p>
-            </div>
-            <div class="card">
-              <h4>İsrail-Filistin</h4>
-              <p class="text-muted">Ortadoğu çatışması ve barış süreçleri</p>
-            </div>
-            <div class="card">
-              <h4>Kavimler Göçü</h4>
-              <p class="text-muted">Antik ve Orta Çağ dönemlerindeki nüfus hareketleri</p>
-            </div>
-            <div class="card">
-              <h4>Soğuk Savaş</h4>
-              <p class="text-muted">20. yüzyıl ideolojik ve jeopolotik mücadeleler</p>
-            </div>
+          <h2 class="text-center mb-2xl animate-on-scroll">Ekip Rolleri</h2>
+          <div id="team-roles-container" class="animate-on-scroll stagger-1">
+            <!-- Team roles will be loaded here by JavaScript -->
+            <p style="text-align: center; color: var(--color-text-secondary);">Ekip bilgileri yükleniyor...</p>
           </div>
         </div>
       </div>
@@ -126,5 +104,51 @@
   </footer>
 
   <script src="app.js"></script>
+  <script>
+    // Load and display team roles from teams.json
+    async function loadTeamRoles() {
+      try {
+        const response = await fetch('data/teams.json');
+        const data = await response.json();
+        const container = document.getElementById('team-roles-container');
+        
+        // Create grid for roles
+        const rolesGrid = document.createElement('div');
+        rolesGrid.className = 'grid-2';
+        rolesGrid.style.gap = 'var(--space-2xl)';
+        
+        data.roles.forEach(role => {
+          const roleCard = document.createElement('div');
+          roleCard.className = 'card';
+          roleCard.style.textAlign = 'center';
+          
+          let membersHTML = '<h4 style="margin-top: 0; color: var(--color-primary); margin-bottom: var(--space-md);">' + role.title + '</h4>';
+          
+          membersHTML += '<div style="font-size: 1rem; line-height: 1.8;">';
+          role.members.forEach(member => {
+            membersHTML += '<p style="margin: var(--space-md) 0; font-weight: 500;">' + member.name + '</p>';
+          });
+          membersHTML += '</div>';
+          
+          roleCard.innerHTML = membersHTML;
+          rolesGrid.appendChild(roleCard);
+        });
+        
+        container.innerHTML = '';
+        container.appendChild(rolesGrid);
+      } catch (error) {
+        console.error('Error loading team roles:', error);
+        const container = document.getElementById('team-roles-container');
+        container.innerHTML = '<p style="text-align: center; color: var(--color-error);">Ekip bilgileri yüklenirken bir hata oluştu.</p>';
+      }
+    }
+    
+    // Load team roles when page is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', loadTeamRoles);
+    } else {
+      loadTeamRoles();
+    }
+  </script>
 </body>
 </html>

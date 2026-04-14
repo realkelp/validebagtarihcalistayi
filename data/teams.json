@@ -1,0 +1,76 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "title": "Eş Genel Koordinatörler",
+      "titleEn": "Co-General Coordinators",
+      "members": [
+        {
+          "name": "Efe Başeğmez"
+        },
+        {
+          "name": "İsmail Arda Akgül"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Finans Başkanı",
+      "titleEn": "Finance President",
+      "members": [
+        {
+          "name": "Ecrin Elaldı"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Eş Organizasyon Başkanları",
+      "titleEn": "Co-Organization Presidents",
+      "members": [
+        {
+          "name": "Ertuğrul Mustafa Kalyoncu"
+        },
+        {
+          "name": "Hasan Zor"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Eş Medya Başkanları",
+      "titleEn": "Co-Media Presidents",
+      "members": [
+        {
+          "name": "Emine Elif Keskin"
+        },
+        {
+          "name": "Ecrin Arıdaş"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Akademi Başkanı",
+      "titleEn": "Academy President",
+      "members": [
+        {
+          "name": "Mehmethan Utku Şahan"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Eş Press Başkanları",
+      "titleEn": "Co-Press Presidents",
+      "members": [
+        {
+          "name": "Firuze Ustaoğlu"
+        },
+        {
+          "name": "Zeynep Ecem Gündoğdu"
+        }
+      ]
+    }
+  ]
+}

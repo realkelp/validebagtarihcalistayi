@@ -366,15 +366,27 @@ nav.scrolled {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+    box-shadow: var(--shadow-md);
   }
 
   .nav-links.open {
-    max-height: 400px;
+    max-height: 500px;
+    overflow-y: auto;
+    z-index: 99;
   }
 
   .nav-links a {
     padding: var(--space-md) 0;
     font-size: 1.1rem;
+  }
+
+  /* Ensure main content has proper spacing on mobile */
+  main {
+    margin-top: 80px;
+  }
+
+  section.hero {
+    margin-top: 0;
   }
 }
 
